@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Jambofy",
+  "name": "Breadify",
   "version": "0.1.1",
-  "description": "Improves boring youtube thumbnails by adding Jambo the cat.",
+  "description": "Improves boring youtube thumbnails by adding Bread to everything!",
   "host_permissions": [ "https://www.youtube.com/*"],
   "content_scripts":
   [
@@ -12,7 +12,7 @@
       "run_at": "document_idle"
     }
   ],
-  "permissions": ["nativeMessaging"],
+  "permissions": [],
   "web_accessible_resources":
   [
     {
@@ -32,7 +32,7 @@
       "128": "assets/icons/icon-128.png"
     },
     "default_popup": "popup.html",
-    "default_title": "Jambofyer"
+    "default_title": "Breadifier"
   },
   "icons":
   {
